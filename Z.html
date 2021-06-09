@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Esquinas</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .contenedor{
+            display: flex;
+            flex-direction: row;
+            background-color: chocolate;
+            height: 100vh;
+            justify-content: space-between;
+        }
+        .hijos{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .nietos{
+            width:100px;
+            background-color: black;
+            height: 100px;
+        }
+        .centro{
+            display: flex;
+            justify-items: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+<div class="contenedor">
+
+    <div class="hijos">
+        <div class="nietos"></div>
+        <div class="nietos"></div>
+    </div>
+    <div class="hijos">
+        <div class="nietos"></div>
+        <div class="nietos"></div>
+        <div class="nietos"></div>
+    </div>
+    <div class="hijos">
+        <div class="nietos"></div>
+        <div class="nietos"></div>
+    </div>
+</div>
+
+</body>
+</html>
